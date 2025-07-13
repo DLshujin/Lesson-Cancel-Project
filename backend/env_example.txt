@@ -1,0 +1,17 @@
+# 应用配置
+SECRET_KEY=your-secret-key-here
+FLASK_ENV=development
+DEBUG=True
+
+# 数据库配置
+DATABASE_URL=mysql+pymysql://username:password@localhost/lesson_cancel_db
+
+# 邮件配置
+MAIL_USERNAME=your-email@qq.com
+MAIL_PASSWORD=your-smtp-password
+MAIL_SERVER=smtp.qq.com
+MAIL_PORT=587
+MAIL_USE_TLS=True
+
+# 其他配置
+POSTS_PER_PAGE=20 
